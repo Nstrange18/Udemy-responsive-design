@@ -4,7 +4,13 @@ body {
   background-color: #faf9f6;
   display: flex;
   flex-direction: column;
-  min-height: 95vh;
+  min-height: 90vh;
+}
+
+.logo {
+  width: 20%;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 .main {
@@ -13,6 +19,7 @@ body {
 
 h1 {
   font-size: 3.8rem;
+  font-weight: 700;
 }
 
 .tile-image {
@@ -36,11 +43,23 @@ h1 {
 
 .card {
   display: flex;
+  align-items: center;
   gap: 1rem;
 }
 
 .image-info {
   font-size: 0.9rem;
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.creative {
+  color: midnightblue;
 }
 
 footer {
